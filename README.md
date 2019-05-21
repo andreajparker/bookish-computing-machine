@@ -14,4 +14,4 @@ Setting up an Nginx web server with Railgun
 - be sure to highlight all the security lockdowns that you implemented so that your virtualized machine in the cloud didn't get pwned (also show that on the lesser-secured box - login was only password protected, no ssh key - that the box got pwned within 10 minutes)
 - configuring Railgun (also explain how it works in terms of only serving up the page content delta which improves loading time)
 - [UWF (Uncomplicated Firewall)](https://wiki.ubuntu.com/UncomplicatedFirewall) setup that you did
-- be sure to explain how and why you set up `memcached` and the performance boost you got from that (protip: set debugging level to 3 - literally picked that at random; it seemed probably high enough to provide something useful)
+- be sure to explain the design decision to use `memcached` and the performance boost you got from that (protip: set debugging level to 3 - literally picked that at random; it seemed probably high enough to provide something useful)
