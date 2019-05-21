@@ -7,3 +7,9 @@ Setting up an Nginx web server with Railgun
 - Obtain an elliptic curve certificate (self-signed is okay) and install it on your web server. 
 - Force all requets to your web server over SSL, e.g., HSTS and PageRules.
 - Display / compare the two HTTP response headers -- going through Cloudflare and an HTTP request going directly to your server -- by writing a small script to compare the headers.
+
+
+**TODO May 2019** Update this repo with 
+- your multi-page write-up on setting up an NGINX server, 
+- configuring Railgun (also explain how it works in terms of only serving up the page content delta which improves loading time)
+- be sure to explain how and why you set up `memcached` and the performance boost you got from that (protip: set debugging level to 3 (literally picked that at random; it seemed probably high enough to provide something useful)
